@@ -1,6 +1,6 @@
 {
 	"name": "Kubernetes-in-Codespaces",
-	"dockerFile": "Dockerfile",
+	"image": "ghcr.io/maazghani/k3spaces:main",
 
 	// do not change these if you want Docker in Docker support
 	"runArgs": ["--init", "--privileged"],
