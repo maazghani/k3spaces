@@ -1,7 +1,7 @@
 # this image is built and updated weekly
 # https://github.com/cse-labs/codespaces-images
 
-FROM ghcr.io/maazghani/k3spaces:latest
+FROM ghcr.io/maazghani/k3spaces:main
 
 # some images require specific values
 ARG USERNAME=vscode
