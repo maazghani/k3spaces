@@ -10,16 +10,8 @@
 	// some base images require a specific user name
 	"remoteUser": "vscode",
 
-	// Set container specific settings
-	"settings": {
-		"terminal.integrated.defaultProfile.linux": "zsh",
-		"files.trimTrailingWhitespace": true,
-		"files.trimFinalNewlines": true,
-		"files.insertFinalNewline": true
-	},
-
 	"hostRequirements": {
-		"cpus": 4
+		"cpus": 8
 	},
 
 	// forward ports for the app
@@ -33,7 +25,6 @@
 	// add labels
 	"portsAttributes": {
 		"30000": { "label": "Prometheus" },
-		"30080": { "label": "IMDb App" },
 		"31080": { "label": "Heartbeat" },
 		"32000": { "label": "Grafana" }
 	},
